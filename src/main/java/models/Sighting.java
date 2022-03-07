@@ -1,0 +1,31 @@
+package models;
+
+public class Sighting extends Animal {
+
+  public String rangerName;
+  public String location;
+
+    public Sighting(String rangerName, String location , String Name, String health, String age) {
+        super(Name,health ,age);
+        this.rangerName=rangerName;
+        this.location=location;
+
+    }
+
+    public String getRangerName() {
+        return rangerName;
+    }
+
+    public void setRangerName(String rangerName) {
+        this.rangerName = rangerName;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+}
+
