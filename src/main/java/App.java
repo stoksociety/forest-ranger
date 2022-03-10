@@ -50,7 +50,7 @@ public class App {
                     Animal animals = new Animal(name, age, health);
                     sql2oAnimalreal.add(animals);
                 } else {
-                    System.out.println("If Endangered, Fill in all The Extra Fields!!");
+                    System.out.println("If in danger continue your filling");
                 }
             } else {
                 Animal animals = new Animal(name, age, health);
