@@ -23,7 +23,8 @@ public void animal_instantiatescorrectly_true(){
         Assert.assertEquals("young", testAnimal.getAge());
 
 
-    }  @Test
+    }
+    @Test
     public void animal_InstantiateWithHealth_true() {
         Animal testAnimal = new Animal("tiger","bad","young");
         Assert.assertEquals("bad", testAnimal.getHealth());
