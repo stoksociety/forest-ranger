@@ -1,6 +1,6 @@
 package real;
 
-import models.Animal;
+
 import models.Sighting;
 import org.sql2o.Connection;
 import org.sql2o.Sql2o;
