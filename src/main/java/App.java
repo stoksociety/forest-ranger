@@ -21,8 +21,8 @@ public class App {
     public static void main(String[] args) {
         port(getHerokuAssignedPort());
         staticFileLocation("/public");
-        String connection = "jdbc:postgresql://ec2-3-225-79-57.compute-1.amazonaws.com:5432/dd1r4d2ofaup6n?sslmode=require";
-        Sql2o sql2o = new Sql2o(connection, "jtxvgzzwskkqjc", "bbac89e2b6f957c19ec56182ed627c570c34f5bcba9fd24aff39618ab8b25412");
+        String connection = "jdbc:postgresql://ujhmizzcfaifec:27a6dc036bb2b896f5efd5f283915063d044a58c213e256f2e2b0f5b8b0237cb@ec2-44-194-167-63.compute-1.amazonaws.com:5432/d6u2nk4ot4t0jf";
+        Sql2o sql2o = new Sql2o(connection, "ujhmizzcfaifec", "27a6dc036bb2b896f5efd5f283915063d044a58c213e256f2e2b0f5b8b0237cb");
 
         Sql20Animalreal sql2oAnimalreal = new Sql20Animalreal(sql2o);
         Sql20Sightingreal  sql2oSightingreal = new Sql20Sightingreal(sql2o);
