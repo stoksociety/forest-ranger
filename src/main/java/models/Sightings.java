@@ -1,15 +1,17 @@
 package models;
 
-class Sightings extends Animals {
+
+public class Sightings extends  Animals {
 
     private String rangerName;
-    private  String location;
+    private String location;
 
-    public Sightings(String name,String age, String health,  String location, String rangerName){
+    public Sightings(String name, String age, String health,  String location, String rangerName) {
         super(name, age, health);
         this.location = location;
         this.rangerName = rangerName;
     }
+
     public String getRangerName() {
         return rangerName;
     }
