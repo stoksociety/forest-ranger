@@ -1,8 +1,8 @@
 import models.Animal;
 import models.Sighting;
 import org.sql2o.Sql2o;
-import real.Sql20Animalreal;
-import real.Sql20Sightingreal;
+import dao.Sql20Animalreal;
+import dao.Sql20Sightingreal;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 import java.util.HashMap;
